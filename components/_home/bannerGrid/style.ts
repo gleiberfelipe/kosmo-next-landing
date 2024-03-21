@@ -118,7 +118,9 @@ h2{
   .item-2x2 {
     grid-column: span 2;
     grid-row: span 2;
-    background-color: rgb(0,0,0);
+    background-image: none;
+    background-color: rgb(0,0,0) !important;
+    
     overflow: hidden;
     img{
         transform: scale(1.4);
@@ -158,7 +160,8 @@ h2{
   .item-2x1 {
     grid-column: span 2;
     grid-row: span 1;
-    background-color: rgb(0,0,0);
+    background-image: none;
+    background-color: rgb(0,0,0) !important;
     overflow: hidden;
 
     img{
