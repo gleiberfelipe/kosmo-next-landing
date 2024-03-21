@@ -1,4 +1,4 @@
-
+"use client"
 import { CiHeart } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
