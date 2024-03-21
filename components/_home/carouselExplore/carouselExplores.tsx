@@ -2,7 +2,7 @@
 import * as React from "react";
 import { useEffect, useState } from 'react';
 import { DivBox } from "./style";
-import { Label } from "@/components/ui/label"
+
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 
 
