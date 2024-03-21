@@ -161,7 +161,7 @@ h2{
     grid-column: span 2;
     grid-row: span 1;
     background-image: none;
-    background-color: rgb(0,0,0) !important;
+    background-color: rgb(13,13,13) !important;
     overflow: hidden;
 
     img{
