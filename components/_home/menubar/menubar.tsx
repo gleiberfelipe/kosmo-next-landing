@@ -22,7 +22,7 @@ import {
       <BoxMenu style={{borderRight: "2px solid rgb(245,245,245)", marginRight: "10px"}}>
       <Menubar className="flex flex-col gap-2 text-sm justify-left whitespace-nowrap border-none" >
         <MenubarMenu >
-          <MenubarTrigger  className="flex flex-row gap-2 text-sm justify-left whitespace-nowrap border-none">Woman's Fashion <IoIosArrowForward className="flex flex-row gap-2 text-sm justify-left whitespace-nowrap" /></MenubarTrigger>
+          <MenubarTrigger  className="flex flex-row gap-2 text-sm justify-left whitespace-nowrap border-none">Woman s Fashion <IoIosArrowForward className="flex flex-row gap-2 text-sm justify-left whitespace-nowrap" /></MenubarTrigger>
           <MenubarContent side="right">
             <MenubarItem>
               New Tab <MenubarShortcut>⌘T</MenubarShortcut>
@@ -47,7 +47,7 @@ import {
           </MenubarContent>
         </MenubarMenu>
         <MenubarMenu>
-          <MenubarTrigger  className="flex flex-row gap-2 text-sm justify-left whitespace-nowrap border-none" >Men's Fashion <IoIosArrowForward   className="flex flex-row gap-2 text-sm justify-left whitespace-nowrap border-none"/></MenubarTrigger>
+          <MenubarTrigger  className="flex flex-row gap-2 text-sm justify-left whitespace-nowrap border-none" >Men s Fashion <IoIosArrowForward   className="flex flex-row gap-2 text-sm justify-left whitespace-nowrap border-none"/></MenubarTrigger>
           <MenubarContent side="right">
             <MenubarItem>
               Undo <MenubarShortcut>⌘Z</MenubarShortcut>
@@ -77,7 +77,7 @@ import {
           <MenubarTrigger  className="flex flex-row gap-2 text-sm justify-left whitespace-nowrap border-none">Home & Lifestyle</MenubarTrigger>
           <MenubarTrigger  className="flex flex-row gap-2 text-sm justify-left whitespace-nowrap border-none">Medicine</MenubarTrigger>          
           <MenubarTrigger  className="flex flex-row gap-2 text-sm justify-left whitespace-nowrap border-none">Sports & Outdoor</MenubarTrigger>
-          <MenubarTrigger  className="flex flex-row gap-2 text-sm justify-left whitespace-nowrap border-none">Baby's & Toys</MenubarTrigger>          
+          <MenubarTrigger  className="flex flex-row gap-2 text-sm justify-left whitespace-nowrap border-none">Baby s & Toys</MenubarTrigger>          
           <MenubarTrigger  className="flex flex-row gap-2 text-sm justify-left whitespace-nowrap border-none">Groceries & Pets</MenubarTrigger>
           <MenubarTrigger  className="flex flex-row gap-2 text-sm justify-left whitespace-nowrap border-none">Health & Beauty</MenubarTrigger>
          
