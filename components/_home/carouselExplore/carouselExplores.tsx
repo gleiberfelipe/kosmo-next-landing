@@ -268,12 +268,12 @@ export function CarouselExplore() {
                                 <p>(99)</p>
                             </CardFooter>
                                 <RadioGroup className="flex flex-row" defaultValue="comfortable">
-                                    <div className="flex flex-row items-center space-x-2 bg-red-700">
-                                        <RadioGroupItem value="default" id="r1" className="bg-orange-400" />  
+                                    <div className="flex flex-row items-center space-x-2 ">
+                                        <RadioGroupItem value="default" id="r1" className="bg-red-700" />  
                                         {/* <Label htmlFor="r2">Color 1</Label>         */}                              
                                     </div>
                                     <div className="flex flex-row items-center space-x-2">
-                                        <RadioGroupItem value="comfortable" id="r2" />
+                                        <RadioGroupItem value="comfortable" id="r2" className="bg-sky-900" />
                                         {/* <Label htmlFor="r2"> Color 2</Label>                                         */}
                                     </div>
                                 
@@ -311,11 +311,11 @@ export function CarouselExplore() {
                             </CardFooter>
                             <RadioGroup className="flex flex-row" defaultValue="comfortable">
                                     <div className="flex flex-row items-center space-x-2">
-                                        <RadioGroupItem value="default" id="r1" />  
+                                        <RadioGroupItem value="default" id="r1" className="bg-red-700" />  
                                         {/* <Label htmlFor="r2">Color 1</Label>         */}                              
                                     </div>
                                     <div className="flex flex-row items-center space-x-2">
-                                        <RadioGroupItem value="comfortable" id="r2" />
+                                        <RadioGroupItem value="comfortable" id="r2" className="bg-sky-900" />
                                         {/* <Label htmlFor="r2"> Color 2</Label>                                         */}
                                     </div>
                                 
@@ -355,11 +355,11 @@ export function CarouselExplore() {
                             </CardFooter>
                             <RadioGroup className="flex flex-row" defaultValue="comfortable">
                                     <div className="flex flex-row items-center space-x-2">
-                                        <RadioGroupItem value="default" id="r1" />  
+                                        <RadioGroupItem value="default" id="r1" className="bg-red-700" />  
                                         {/* <Label htmlFor="r2">Color 1</Label>         */}                              
                                     </div>
                                     <div className="flex flex-row items-center space-x-2">
-                                        <RadioGroupItem value="comfortable" id="r2" />
+                                        <RadioGroupItem value="comfortable" id="r2" className="bg-sky-900" />
                                         {/* <Label htmlFor="r2"> Color 2</Label>                                         */}
                                     </div>
                                 
@@ -397,11 +397,11 @@ export function CarouselExplore() {
                             </CardFooter>
                             <RadioGroup className="flex flex-row" defaultValue="comfortable">
                                     <div className="flex flex-row items-center space-x-2">
-                                        <RadioGroupItem value="default" id="r1" />  
+                                        <RadioGroupItem value="default" id="r1" className="bg-red-700" />  
                                         {/* <Label htmlFor="r2">Color 1</Label>         */}                              
                                     </div>
                                     <div className="flex flex-row items-center space-x-2">
-                                        <RadioGroupItem value="comfortable" id="r2" />
+                                        <RadioGroupItem value="comfortable" id="r2" className="bg-sky-900" />
                                         {/* <Label htmlFor="r2"> Color 2</Label>                                         */}
                                     </div>
                                 
@@ -439,11 +439,11 @@ export function CarouselExplore() {
                             </CardFooter>
                             <RadioGroup className="flex flex-row" defaultValue="comfortable">
                                     <div className="flex flex-row items-center space-x-2">
-                                        <RadioGroupItem value="default" id="r1" />  
+                                        <RadioGroupItem value="default" id="r1" className="bg-red-700" />  
                                         {/* <Label htmlFor="r2">Color 1</Label>         */}                              
                                     </div>
                                     <div className="flex flex-row items-center space-x-2">
-                                        <RadioGroupItem value="comfortable" id="r2" />
+                                        <RadioGroupItem value="comfortable" id="r2" className="bg-sky-900" />
                                         {/* <Label htmlFor="r2"> Color 2</Label>                                         */}
                                     </div>
                                 
