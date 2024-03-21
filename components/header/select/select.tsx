@@ -17,8 +17,7 @@ export function SelectDemo() {
         <SelectValue placeholder="English" />
       </SelectTrigger>
       <SelectContent>
-        <SelectGroup>
-          <SelectLabel>English</SelectLabel>
+        <SelectGroup>          
           <SelectItem value="diamond">English</SelectItem>
           <SelectItem value="banana">Portuguese</SelectItem>
           <SelectItem value="blueberry">French</SelectItem>
