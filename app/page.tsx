@@ -14,13 +14,13 @@ export default function Home() {
   return (
 
     <>
-    {/*  <Navbar/>
+     <Navbar/>
       <HeroCard />
       <CarouselSize/>
       <CarouselCategory/>      
       <CarouselSelling/>
       <BannerCategories/>
-      <CarouselExplore/> */}
+      <CarouselExplore/>
       <BannerGrid/>
     </>
   );
