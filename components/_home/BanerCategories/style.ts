@@ -69,13 +69,15 @@ padding: 50px;
         width: 170px;
         height: 56px;
         padding: 0 25px;
+        :hover{
+            opacity: 0.7;
+        }
     }
 }
 
 .imgBox{
     
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 60%, rgba(0,0,0, 0.5) 100%);
-        border-radius: 50%;
+    background-image: radial-gradient(circle, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000, #000000, #000000);
 
     img{
     width: 800px;
