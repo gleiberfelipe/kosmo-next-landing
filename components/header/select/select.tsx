@@ -12,13 +12,13 @@ import {
 
 export function SelectDemo() {
   return (
-    <Select className="border-none justify-end p-0">
+    <Select>
       <SelectTrigger className="w-[180px] border-none justify-end">
         <SelectValue placeholder="English" />
       </SelectTrigger>
       <SelectContent>
         <SelectGroup>
-         
+          <SelectLabel>English</SelectLabel>
           <SelectItem value="diamond">English</SelectItem>
           <SelectItem value="banana">Portuguese</SelectItem>
           <SelectItem value="blueberry">French</SelectItem>
