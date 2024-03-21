@@ -48,7 +48,7 @@ export function CarouselExplore() {
 
     return (
         <DivBox className="pl-12 w-full">
-            <h2>Today's</h2>
+            <h2>Today s</h2>
             <div className="BoxMaster">
                 <div>
                     <h1>Flash Sales</h1>
