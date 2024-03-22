@@ -3,6 +3,7 @@ import { CiHeart } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
 import { NavBox } from "./style";
+import Link from "next/link";
 
 
 
@@ -17,10 +18,10 @@ export default function Navbar() {
       </div>
       <div className="divLi">
         <ul>
-          <li>Home</li>
+          <li><Link href="/">Home</Link></li>
           <li>Contact</li>
           <li>About</li>
-          <li>Sign Up</li>
+          <li><Link href="/signup"> Sign Up</Link></li>
         </ul>
       </div>
       <div>
