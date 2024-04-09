@@ -45,7 +45,7 @@ const Loading = () => {
             <EmergingReverse>
             <div className="imgs">
                 <div>
-                    <h2> Clube De Vantagens</h2>
+                    <h2 className="h2title"> Clube De Vantagens</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Corrupti quasi, asperiores odit blanditiis voluptatibus

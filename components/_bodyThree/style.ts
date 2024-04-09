@@ -29,7 +29,14 @@ color: white;
     }
     h2{
         font-size: 50px;
+
+        
     }
+    .h2title{
+            padding-left: 80px;
+            margin-bottom: 10px;
+            
+        }
 
     p{
         font-size: 20px;
