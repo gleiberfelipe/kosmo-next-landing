@@ -1,100 +1,69 @@
-import styled from 'styled-components';
 
-export const FooterBox = styled.div`
+import styled from "styled-components";
 
-background-color: black;
-padding: 50px 50px 0 50px;
-width: 100%;
+export const HeaderBox = styled.div`
+
+background-color: rgb(17,17,17);
+font-family: Roboto, sans-serif;
 color: white;
-margin: 0;
+display: flex;
+flex-direction: column;
+text-align: start;
 
-.FooterMaster{
-
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
-.FooterChildren{
-    display:flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-
-    h1{
-        font-size: 20px;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-    h2{
-        font-size: 18px;
-        margin-top: 10px;
-    }
-
-    p{
-        font-size: 15px;
-        margin-top: 10px;
-    }
-    input{
-        margin-top: 10px;
-        background-color: black;
-        font-size: 15px;
-        border: 2px solid white;
-        border-radius: 5px;
-        padding: 7px;
-        ::placeholder{
-            font-size: 15px;
-            padding-left: 15px;
-        }
-    }
-}
-.FooterChildrenImg{
+p{
+    margin: 5px 0;
+    padding-left: 50px;
     
+}
+
+
+.links{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;    
-    margin-top: 10px;
-   gap: 10px;
+    padding-left: 50px;
+    text-decoration: none ;
+    color: white !important;
+    gap: 20px;
+a{
+    text-decoration: none ;
+    color: white !important;
+    gap: 20px;
+    text-decoration: underline;
 }
-div.FooterChildrenImgV{
-    
-    
-    img{
-    width: 76px;
-    height: 76px;
-    object-fit: contain;
-}
-}
-div.FooterChildrenImgH{
-   
-    display: flex;
-    flex-direction: column;
- 
-img{
-    width: 110px;
-    height: 40px;
-    object-fit: contain;
-    transform: scale(2.8);
-}
-}
-.FooterChildrenSvg{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 20px;
-
-    p{
-font-size: 25px;
-    }
 
 }
-.FooterFooter{
-    margin-top: 50px;
-    padding-bottom: 20px;
-    font-size: 20px;
+
+.special{
+    height: 5px;
+    border: none;
+    width: 98%;
+    background-image: linear-gradient(to right, #4776e6, #5870e9, #6968eb, #7c5feb, #8e54e9);
+    border-radius: 5px;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+hr{
+    height: 1px;
     color: gray;
-    display: flex;
-align-content: center;
-justify-content: center;
+    width: 98%;
+    background-color: gray;
+    border-radius: 5px;
+    padding-left: 0;
 }
+
+
+@media only screen and (max-width: 768px){
+
+    .links{
+        display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       height: 150px;
+    }
+
+
+}
+
+
 `

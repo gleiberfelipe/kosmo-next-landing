@@ -2,9 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import StyledComponentsRegistry from '../lib/registry'
-import Header from "@/components/header/header";
-import { Footer } from "@/components/_footer/footer";
-import Navbar from "@/components/_home/navbar/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,19 +12,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
-    <html>
-      <body>
-        <StyledComponentsRegistry>
-          <Header/>
-          <Navbar/>
-          {children}
-          <Footer/>
-          </StyledComponentsRegistry>
+    <html lang="en">
+      <body className={inter.className}>
+      <StyledComponentsRegistry>
+        {children}
+        </StyledComponentsRegistry>
       </body>
     </html>
-  )
+  );
 }

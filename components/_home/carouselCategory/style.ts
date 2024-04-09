@@ -3,6 +3,48 @@ import styled from 'styled-components';
 export const DivBox = styled.div`
 
 
+
+width: 100%;
+height: 100%;
+position: relative;
+z-index: 1;
+padding: 0;
+margin: 0;
+left: 0px;
+bottom: 880px;
+overflow: visible;
+z-index: 1;
+border-radius: 30px;
+background-color: transparent;
+display: flex;
+align-self: center;
+
+#bt1{
+    position: relative;
+    left: 100px;
+    top: 932px;
+    z-index: 4;
+    svg{
+        position: relative;
+        z-index: 5;
+        color: black;
+    }
+
+}
+
+#bt2{
+    position: relative;
+    left: 250px;
+    top: 0px;
+    z-index: 4;
+
+    svg{
+        position: relative;
+        z-index: 5;
+        color: black;
+    }
+}
+
 h2{
     font-size: 25px;
     align-items: center;
@@ -22,6 +64,8 @@ h2{
     height: 100px;
     width: 90%;
     justify-content: space-between;
+    bottom: 0px;
+    position: relative;
 
     h1{
     font-size: 36px;
@@ -35,38 +79,91 @@ h2{
 }
 
 .Cardbox{
-    border: 1px solid grey;
+    
     display: flex;
     flex-direction: column;
-    background-color: white;
-    color: black;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+    background-color: transparent;
+    color: black;    
+    width: 500px;
+height: 900px;
+    bottom: 0px;
+    
+    
+        z-index: 2;
+        border-radius: 20px;
+        overflow: visible !important;
 
     :hover{
         background-color: rgb(239,68,68);
         color: white;
     }
-    div{
-        width: 100%;
-        height: 100%;
-        display: flex;
-    flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+
 
     p{
         font-size: 15px;
         margin: 15px 0;
     }
-    
+    img{
+        display: flex;
+        width: 400px !important;
+        height: 845px !important;
+        position: relative;
+        bottom: 10px !important;
+        left: 10px !important;
+        
+        z-index: 1;
+        border-radius: 50px !important; 
+        object-fit: cover;
+        
+      
+    }
     svg{
         font-size: 45px;
         margin: 15px;
     }
 }
+
+
+@media only screen and (max-width: 768px){
+
+    #bt1{
+        display: none;
+    z-index: 4;
+    svg{
+        display: none;
+    }
+
+}
+
+#bt2{
+   display: none;
+    svg{
+        display: none;
+    }
+}
+    width: 320px !important;
+                height: 670px !important;
+                bottom: 766px !important;
+                border-radius: 35px;
+                left: 5px !important;
+
+                .Cardbox{
+                    width: 320px !important;
+                height: 670px !important;
+              
+                border-radius: 35px;
+               
+
+
+                img{
+        width: 320px !important;
+                height: 690px !important;
+                bottom: 15px !important;
+                border-radius: 35px;
+                left: 5px !important;
+    }
+}
+                }
 
 
 `

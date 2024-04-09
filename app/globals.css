@@ -71,6 +71,6 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+   background-color: rgb(17,17,17);
   }
 }

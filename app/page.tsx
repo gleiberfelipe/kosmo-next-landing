@@ -1,12 +1,11 @@
 "use client"
-import { BannerCategories } from "@/components/_home/BanerCategories/bannerCategories";
-import HeroCard from "@/components/_home/Herocard/herocard";
-import { BannerGrid } from "@/components/_home/bannerGrid/bannerGrid";
-import { CarouselCategory } from "@/components/_home/carouselCategory/carouselCategory";
-import { CarouselExplore } from "@/components/_home/carouselExplore/carouselExplores";
-import {CarouselSize } from "@/components/_home/carouselHori/carouselX";
-import { CarouselSelling } from "@/components/_home/carouselSelling/carouselSelling";
-import Navbar from "@/components/_home/navbar/navbar";
+import Service from "@/components/_body/body";
+import Loading from "@/components/_bodyThree/bodyThree";
+import Footer from "@/components/_bodyTwo/bodyTwo";
+import RealFooter from "@/components/_footer/footer";
+import Header from "@/components/_hearder/header";
+import About from "@/components/_heroCard/heroCard";
+import Logo from "@/components/_logo/logo";
 
 
 
@@ -15,13 +14,20 @@ export default function Home() {
 
     <>
     
-      <HeroCard />
-      <CarouselSize/>
-      <CarouselCategory/>      
-      <CarouselSelling/>
+   {/*    <HeroCard />
+      <CarouselSize/> */}
+      <Header/>      
+      <Logo/>
+      <About/>
+      <Service/>
+      <Footer/>
+      <Loading/>
+      <RealFooter/>
+      
+   {/*    <CarouselSelling/>
       <BannerCategories/>
       <CarouselExplore/>
-      <BannerGrid/>
+      <BannerGrid/> */}
     </>
   );
 }
