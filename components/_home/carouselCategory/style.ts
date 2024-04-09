@@ -4,7 +4,7 @@ export const DivBox = styled.div`
 
 
 
-width: 100%;
+width: 430px !important;
 height: 100%;
 position: relative;
 z-index: 1;
@@ -127,23 +127,34 @@ height: 900px;
 @media only screen and (max-width: 768px){
 
     #bt1{
-        display: none;
+    position: relative;
+    left: 40px !important;
+    /* right: 130ox !important; */
+    top: -30px;
     z-index: 4;
     svg{
-        display: none;
+        position: relative;
+        z-index: 5;
+        color: black;
     }
 
 }
 
 #bt2{
-   display: none;
+    position: relative;
+    left: 250px;
+    top: -730px !important;
+    z-index: 4;
+
     svg{
-        display: none;
+        position: relative;
+        z-index: 5;
+        color: black;
     }
 }
     width: 320px !important;
                 height: 670px !important;
-                bottom: 766px !important;
+                bottom: 797px !important;
                 border-radius: 35px;
                 left: 5px !important;
 

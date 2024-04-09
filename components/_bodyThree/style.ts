@@ -17,23 +17,26 @@ color: white;
 
     display: flex;
     flex-direction: row;
-    padding: 50px;
+   
     gap: 50px;
+    margin: 20px 0;
 
     div{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 50px;
+        margin: 20px 0;
+     
     
     }
     h2{
         font-size: 50px;
+        margin: 20px 0;
 
         
     }
     .h2title{
-            padding-left: 80px;
+            padding-left: 120px;
             margin-bottom: 10px;
             
         }
@@ -44,7 +47,7 @@ color: white;
         text-align: justify;  
     }
     .map, .diamond{
-     width: 800px;
+     width: 600px;
      height: 400px; 
      border-radius: 60px;
      border-bottom: 15px solid #8e54e9;
@@ -53,6 +56,7 @@ color: white;
    display: flex;
   justify-content: center;
   align-items: center;
+  object-fit: cover !important;
 
     }
 }
@@ -85,7 +89,7 @@ h1{
     flex-direction: row;
     padding: 0;
     margin: 0;
-    margin-left: 100px;
+    margin-left: 0px;
     height: 1100px;
     
     overflow: hidden;
@@ -94,14 +98,14 @@ h1{
     .icon p{
                 width: 100px;
                 font-size: 90px;
-                margin: 150px 30px 0 0px;
+                margin: 150px 30px 0 30px;
             }
 
     .children{
         padding: 0;
         margin: 0;
-        width: 600px;
-        margin-left: 100px;
+        width: 430px;
+        margin-left: 0px;
        
 h1{
     margin: 30px 0;
@@ -485,7 +489,7 @@ flex-direction: column !important;
         }
 
         .children{
-            width: 414px !important;
+            width: 350px !important;
             align-self: center;
             h1{
                 width: 380px;                

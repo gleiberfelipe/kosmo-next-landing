@@ -103,6 +103,7 @@ p{
    
     p{
         width: 380px;
+        padding: 20px;
     }
     
 }

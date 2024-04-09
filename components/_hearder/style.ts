@@ -35,6 +35,10 @@ color: white;
 
     flex-wrap: nowrap;
     width: 100%;
+
+    p{
+        margin-left: 50px;
+    }
     .img{
         width: 70px
     }

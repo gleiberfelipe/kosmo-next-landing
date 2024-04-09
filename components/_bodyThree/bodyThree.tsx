@@ -54,7 +54,7 @@ const Loading = () => {
                 </div>
                 <div className="diamond">
                 <Image src="/a8351b5c61cd1a273489a21a66e116c2.png" alt=""   layout="fill"
-                    objectFit="contain"/>
+                    objectFit="cover"/>
                 </div>
                 </div>
             </EmergingReverse>
