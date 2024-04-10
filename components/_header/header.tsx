@@ -20,8 +20,9 @@ const Header = () => {
                     layout="fill"
                     objectFit="contain" />
             </div>
+            <div>
             <p> Lorem ipsum dolor</p>
-
+            </div>
             <div className="icons">
                 <p><FaUser /></p>
                 <p><IoIosMenu /></p>

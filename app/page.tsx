@@ -3,7 +3,7 @@ import Service from "@/components/_body/body";
 import Loading from "@/components/_bodyThree/bodyThree";
 import Footer from "@/components/_bodyTwo/bodyTwo";
 import RealFooter from "@/components/_footer/footer";
-import Header from "@/components/_hearder/header";
+import Header from "@/components/_header/header";
 import About from "@/components/_heroCard/heroCard";
 import Logo from "@/components/_logo/logo";
 
@@ -14,8 +14,7 @@ export default function Home() {
 
     <>
     
-   {/*    <HeroCard />
-      <CarouselSize/> */}
+
       <Header/>      
       <Logo/>
       <About/>
@@ -24,10 +23,7 @@ export default function Home() {
       <Loading/>
       <RealFooter/>
       
-   {/*    <CarouselSelling/>
-      <BannerCategories/>
-      <CarouselExplore/>
-      <BannerGrid/> */}
+ 
     </>
   );
 }

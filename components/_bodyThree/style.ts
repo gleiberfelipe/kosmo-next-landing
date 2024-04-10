@@ -106,7 +106,9 @@ h1{
         margin: 0;
         width: 430px;
         margin-left: 0px;
-       
+       .smallscreen{
+        display: none;
+       }
 h1{
     margin: 30px 0;
 }
@@ -430,11 +432,24 @@ h1{
      
         
     }
+
+    h2{
+        font-size: 40px !important;
+    }
     .imgs{
         flex-direction: column !important;
         padding: 0px !important;
         gap: 0px;
         align-items: center;
+
+        .h2title{
+            padding-left: 60px !important;
+            margin-bottom: 20px;
+            white-space: wrap;
+            width: 300px;
+           
+            
+        }
         
         div{
             padding: 0px;
@@ -472,7 +487,7 @@ flex-direction: column !important;
     margin-bottom: 100px !important;
     margin-top: 150px !important;
     height: 2100px !important;
-    margin-left: 0px !important;
+    margin-left: 50px !important;
     
 
   
@@ -491,6 +506,10 @@ flex-direction: column !important;
         .children{
             width: 350px !important;
             align-self: center;
+
+            .smallscreen{
+        display: flex !important;
+       }
             h1{
                 width: 380px;                
                 text-align: center;

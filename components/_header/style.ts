@@ -35,9 +35,13 @@ color: white;
 
     flex-wrap: nowrap;
     width: 100%;
+    justify-content: space-around;
+    max-width: 400px;
 
     p{
-        margin-left: 50px;
+        margin-left: 50px !important;
+        width: 100px;
+        font-size: 12px;
     }
     .img{
         width: 70px
@@ -45,7 +49,10 @@ color: white;
 
     .icons{
   
-        width: 100px;
+        width: 10px;
+        gap:   0px;   
+        padding-right: 0px;
+        padding: 0;
     }
 }
 

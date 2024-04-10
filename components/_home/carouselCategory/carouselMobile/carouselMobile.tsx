@@ -1,30 +1,21 @@
-"use client"
+import * as React from "react"
 
-import * as React from "react";
-import { DivBox } from "./style";
+import { Card, CardContent } from "@/components/ui/card"
 import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
-} from "@/components/ui/carousel";
-import { GiSmartphone } from "react-icons/gi";
-import { HiOutlineComputerDesktop } from "react-icons/hi2";
-import { GiWatch } from "react-icons/gi";
-import { CiCamera } from "react-icons/ci";
-import { IoMdHeadset } from "react-icons/io";
-import { BiJoystick } from "react-icons/bi";
-import { CgSmartHomeWashMachine } from "react-icons/cg";
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
+import { DivBox } from "./style";
 
-export function CarouselCategory() {
-    return (
-        <DivBox className="pl-12 w-full">
-          
-            <Carousel className="w-full max-w-[410px] rounded-10">
-                <CarouselPrevious id="bt1"/>
-                <CarouselContent>
-                    <CarouselItem>
+export function CarouselMobile() {
+  return (
+    <DivBox className="pl-12 w-full">
+    <Carousel className="w-full max-w-xs">
+      <CarouselContent>
+      <CarouselItem>
                         <div className="Cardbox">
                         
                                 <img src="/1b27e2ab63dc4c5a0abd514dd15a969c.png" alt="" />
@@ -80,8 +71,9 @@ export function CarouselCategory() {
                         </div>
                     </CarouselItem>
                 </CarouselContent>
-                <CarouselNext id="bt2"/>
-            </Carousel>
-        </DivBox>
-    )
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
+    </DivBox>
+  )
 }

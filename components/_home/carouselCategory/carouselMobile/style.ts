@@ -10,14 +10,17 @@ position: relative;
 z-index: 1;
 padding: 0;
 margin: 0;
-left: 0px;
-bottom: 880px;
+left: 10px;
+bottom: 765px;
 overflow: visible;
 z-index: 1;
 border-radius: 30px;
 background-color: transparent;
 display: flex;
 align-self: center;
+svg{
+    color: black
+}
 
 #bt1{
     position: relative;
@@ -105,15 +108,16 @@ height: 900px;
     }
     img{
         display: flex;
-        width: 400px !important;
-        height: 845px !important;
+        width: 320px !important;
+        height: 675px !important;
         position: relative;
         bottom: 10px !important;
-        left: 10px !important;
+        left: 5px !important;
         
         z-index: 1;
         border-radius: 50px !important; 
         object-fit: cover;
+        margin-right: 20px;
         
       
     }
@@ -124,32 +128,7 @@ height: 900px;
 }
 
 
-@media only screen and (max-width: 768px){
-    display: none;
 
-    #bt1{
-        display: none;
-
-        }
-
-        #bt2{
-            display: none;
-
-
-        }
-      
-            
-
-                .Cardbox{
-                    display: none;
-               
-
-
-                img{
-                    display: none;
-    }
-}
-                }
 
 
 `

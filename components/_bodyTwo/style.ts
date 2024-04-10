@@ -260,13 +260,14 @@ p{
 @media only screen and (max-width: 768px){
 
     p{
-        width: 400px;
+        width: 350px;
         padding: 0 20px;
     }
 
     .img{
-        width: 400px;
-    height: 200px;
+        width: 350px;
+    height: 180px;
+    border-radius: 30px;
     img{
         object-fit: cover !important;
         border-radius: 20px !important;
@@ -274,6 +275,9 @@ p{
 }
     .teadropfather{
         height: 700px;
+        padding-left: 50px;
+        margin-right: 0px;
+        padding-right: 0px;
         
 
     .wildBox {
@@ -309,19 +313,20 @@ align-self: center;
     flex-direction: column;
     align-items: center;
     justify-content: center !important;
-    margin-left: 20px;
-    flex: 0 0 330px; /* Fixa o tamanho das divs filho em 400px */
+    margin-left: 10px;
+    
+    flex: 0 0 250px; /* Fixa o tamanho das divs filho em 400px */
     min-height: 700px;
     height: 700px;
-      
+    overflow: visible;
     z-index: 50;
     
     .circle{
         margin-top: 50px;
         background-color: white;
         border-radius: 50%;
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
        /*  position: relative;
         bottom: 528px;
         left: 280px; */
@@ -332,9 +337,10 @@ align-self: center;
         background-image: url('/fe9691cd14505e64f134d13ee4f93767.jpg');
 
         h2{
-        font-size: 40px;
+        font-size: 35px;
             width: 150px;
             color: white;
+            text-align: center;
             font-weight: 600;
         }
 
@@ -344,8 +350,8 @@ align-self: center;
             margin-top: 50px;
         background-color: white;
         border-radius: 50%;
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
            /*  position: relative;
             bottom: 528px;
             left: 25px; */
@@ -358,11 +364,13 @@ align-self: center;
     
     
             h2{
-                font-size: 40px;
-                    width: 150px;
-                    color: white;
-                    font-weight: 600;
-                }
+        font-size: 35px;
+            width: 150px;
+            color: white;
+            text-align: center;
+            font-weight: 600;
+        }
+
         
         }
 
@@ -372,7 +380,8 @@ align-self: center;
     }
         p{
             text-align: center;
-            padding: 20px;
+            padding: 20px 35px 20px 20px;
+
             width: 300px;
             
         }
@@ -388,6 +397,7 @@ align-self: center;
 }
 .wildcard.three {
     background-image: linear-gradient(to right top, #ff7a2f, #f77038, #ed663f, #e35e44, #d75649, #d65249, #d64d49, #d54949, #e04545, #ea4141, #f53c3c, #ff3737);
+    padding-right: 20px;
 }
 
     .children{

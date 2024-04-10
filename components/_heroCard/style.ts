@@ -102,8 +102,9 @@ p{
     }
    
     p{
-        width: 380px;
+        width: 370px;
         padding: 20px;
+        margin: 0px 0px;
     }
     
 }
