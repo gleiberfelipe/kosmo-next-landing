@@ -22,13 +22,17 @@ align-self: center;
 #btone{
     color: black !important;
 svg{
-    color: black !important;
+    position: relative;
+    top: 0px;
+    left: 0px !important;
 }
 }
 #bttwo{
     color: black !important;
 svg{
-    color: black !important;
+    position: relative;
+    top: 0px;
+    left: 0px !important;
 }
 }
 
@@ -62,11 +66,11 @@ height: 600px;
     }
     img{
         display: flex;
-        width: 230px !important;
+        width: 235px !important;
         height: 500px !important;
         position: relative;
         bottom: 0px !important;
-        left: 0px !important;
+        left: -3px !important;
         
         z-index: 1;
         border-radius: 50px !important; 

@@ -13,7 +13,7 @@ import { DivBox } from "./style";
 export function CarouselMobile() {
   return (
     <DivBox className="pl-12 w-full">
-    <Carousel className="w-[230px] bg-purple-500 relative left-[70px] rounded-[20px] top-1">
+    <Carousel className="w-[230px] bg-purple-500 relative left-[70px] rounded-[30px] top-1">
       <CarouselContent>
       <CarouselItem>
                         <div className="Cardbox">

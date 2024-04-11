@@ -17,7 +17,8 @@ import { Reveal } from "../_animations/reveal/reveal";
 import { RevealReverse } from "../_animations/revealReverse/revealReverse";
 import { Loadbox } from "./style"
 import { CarouselCategory } from "../_home/carouselCategory/carouselCategory";
-import { CarouselMobile } from "../_home/carouselCategory/carouselMobile/carouselMobile";
+import { CarouselMobile } from "../_home/carouselMobile/carouselMobile";
+
 
 
 
@@ -89,7 +90,7 @@ const Loading = () => {
                     </svg>
                     <CarouselCategory />
                     <div className="smallscreen">
-                        <CarouselMobile />
+                        <CarouselMobile/>
                     </div>
 
                 </div>

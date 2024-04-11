@@ -34,9 +34,9 @@ color: white;
 
     flex-wrap: nowrap;
     padding: 0;
-    margin:
+    margin:0;
     justify-content: space-around;
-  background-color: purple;
+  
   padding: 15px 0;
 
     p{
@@ -44,7 +44,7 @@ color: white;
         width: 100px;
         font-size: 12px;
         white-space: nowrap !important;
-        background-color: red;
+        
     }
     .img{
         width: 30px
@@ -56,8 +56,8 @@ color: white;
         
         padding-right: 0px;
         padding: 0;
-        p svg{
-            margin-right: 20px;
+        p{
+            width: 20px;
         }
     }
 }
