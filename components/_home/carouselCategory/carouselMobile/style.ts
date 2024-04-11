@@ -5,81 +5,35 @@ export const DivBox = styled.div`
 
 
 width: 430px !important;
-height: 100%;
+height: 500px;
 position: relative;
 z-index: 1;
 padding: 0;
 margin: 0;
 left: 10px;
-bottom: 765px;
+bottom: 885px;
 overflow: visible;
 z-index: 1;
 border-radius: 30px;
-background-color: transparent;
+background-color: red;
 display: flex;
 align-self: center;
+
+#btone{
+    color: black !important;
 svg{
-    color: black
+    color: black !important;
+}
+}
+#bttwo{
+    color: black !important;
+svg{
+    color: black !important;
+}
 }
 
-#bt1{
-    position: relative;
-    left: 100px;
-    top: 932px;
-    z-index: 4;
-    svg{
-        position: relative;
-        z-index: 5;
-        color: black;
-    }
 
-}
 
-#bt2{
-    position: relative;
-    left: 250px;
-    top: 0px;
-    z-index: 4;
-
-    svg{
-        position: relative;
-        z-index: 5;
-        color: black;
-    }
-}
-
-h2{
-    font-size: 25px;
-    align-items: center;
-    color: rgb(239,68,68);
-    margin-top: 70px;
-    margin-left: 40px;
-    border-left: 15px solid rgb(239,68,68);
-    padding-left: 10px;
-}
-
-.BoxMaster{
-
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    width: 500px;
-    height: 100px;
-    width: 90%;
-    justify-content: space-between;
-    bottom: 0px;
-    position: relative;
-
-    h1{
-    font-size: 36px;
-    align-items: center;
-    margin-right: 80px; 
-    margin-left: 50px;
-    white-space: nowrap;
-    font-weight: 600;
-}
-
-}
 
 .Cardbox{
     
@@ -87,8 +41,8 @@ h2{
     flex-direction: column;
     background-color: transparent;
     color: black;    
-    width: 500px;
-height: 900px;
+    width: 300px;
+height: 600px;
     bottom: 0px;
     
     
@@ -108,11 +62,11 @@ height: 900px;
     }
     img{
         display: flex;
-        width: 320px !important;
-        height: 675px !important;
+        width: 230px !important;
+        height: 500px !important;
         position: relative;
-        bottom: 10px !important;
-        left: 5px !important;
+        bottom: 0px !important;
+        left: 20px !important;
         
         z-index: 1;
         border-radius: 50px !important; 

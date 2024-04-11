@@ -84,19 +84,19 @@ p{
         height: 105px; 
     }
     .circlebox{
-        width: 405px;
-    height: 270px;
+        width: 360px;
+    height: 240px;
     border: none;
     background-color: rgb(17,17,17);
 
     .circle{
-        width: 67px;
-        height: 67px; 
+        width: 60px;
+        height: 60px; 
     }
     .newimg{
-        width: 402px;
-        height: 267px;
-        bottom: 267px;
+        width: 360px;
+        height: 240px;
+        bottom: 240px;
         right: 0px;
     }
     }

@@ -64,4 +64,13 @@ display: flex;
     bottom: 240px;
 }
 }
+
+@media only screen and (max-width: 768px){
+
+.logobox .children h1{
+
+    font-size: 70px;
+}
+
+}
 `

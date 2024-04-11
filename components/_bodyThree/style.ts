@@ -486,26 +486,31 @@ flex-direction: column !important;
     width: 100%;
     margin-bottom: 100px !important;
     margin-top: 150px !important;
-    height: 2100px !important;
+    height: 1700px !important;
     margin-left: 50px !important;
     
 
   
-        .icon p svg{
+        .icon p{
+            display: flex;
             width: 400px;
             text-align: center;
             margin-top: 0px;
             position: relative !important;
             height: 0px;
-            z-index: 2;
+            z-index: 99;
             bottom: 1050px !important;
             left: 20px;
+            background-color: green;
 
         }
 
         .children{
             width: 350px !important;
             align-self: center;
+            background-color: yellow;
+            height: 900px;
+            margin-bottom: 0px !important;
 
             .smallscreen{
         display: flex !important;
@@ -513,14 +518,17 @@ flex-direction: column !important;
             h1{
                 width: 380px;                
                 text-align: center;
-                padding-right: 40px;
+                margin-right: 40px;
                 
             }
             max-height: 700px;
             margin-bottom: 100px !important;
             
             svg{
-                width: 340px;
+                width: 250px;
+                position: relative;
+                left: 70px;
+                bottom: 200px;
             }
 
             img{

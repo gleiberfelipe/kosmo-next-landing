@@ -68,9 +68,20 @@
  
 @layer base {
   * {
-    @apply border-border;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .myroot{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
   }
   body {
    background-color: rgb(17,17,17);
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
   }
 }

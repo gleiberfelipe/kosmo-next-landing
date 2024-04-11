@@ -8,7 +8,6 @@ justify-content: space-between;
 background-color: rgb(17,17,17);
 padding: 10px 0;
 margin: 0;
-box-sizing: border-box;
 align-items: center;
 padding-left: 20px;
 font-family: Roboto, sans-serif;
@@ -34,17 +33,18 @@ color: white;
 @media only screen and (max-width: 768px){
 
     flex-wrap: nowrap;
-    width: 100%;
+    padding: 0;
+    margin: 0;
     justify-content: space-around;
-    max-width: 400px;
+  background-color: purple;
 
     p{
-        margin-left: 50px !important;
+        
         width: 100px;
         font-size: 12px;
     }
     .img{
-        width: 70px
+        width: 30px
     }
 
     .icons{

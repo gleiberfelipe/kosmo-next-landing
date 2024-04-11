@@ -12,7 +12,7 @@ import Logo from "@/components/_logo/logo";
 export default function Home() {
   return (
 
-    <>
+    <div className="myroot">
     
 
       <Header/>      
@@ -24,6 +24,6 @@ export default function Home() {
       <RealFooter/>
       
  
-    </>
+    </div>
   );
 }
