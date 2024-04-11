@@ -487,7 +487,7 @@ flex-direction: column !important;
     margin-bottom: 100px !important;
     margin-top: 150px !important;
     height: 1700px !important;
-    margin-left: 50px !important;
+    margin-left: 0px !important;
     
 
   
