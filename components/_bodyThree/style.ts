@@ -508,7 +508,7 @@ flex-direction: column !important;
         .children{
             width: 350px !important;
             align-self: center;
-            background-color: yellow;
+            background-color: transparent;
             height: 900px;
             margin-bottom: 0px !important;
 
@@ -592,7 +592,7 @@ flex-direction: column !important;
             left: 100px;
         }
         .barFour{
-            bottom: 270px;
+            bottom: 265px;
             left: 90px;
         }
     }

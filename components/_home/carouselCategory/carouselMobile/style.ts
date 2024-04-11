@@ -15,7 +15,7 @@ bottom: 885px;
 overflow: visible;
 z-index: 1;
 border-radius: 30px;
-background-color: red;
+background-color: transparent;
 display: flex;
 align-self: center;
 
@@ -66,7 +66,7 @@ height: 600px;
         height: 500px !important;
         position: relative;
         bottom: 0px !important;
-        left: 20px !important;
+        left: 0px !important;
         
         z-index: 1;
         border-radius: 50px !important; 
