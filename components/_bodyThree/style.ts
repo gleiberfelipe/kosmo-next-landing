@@ -487,7 +487,7 @@ flex-direction: column !important;
     margin-bottom: 100px !important;
     margin-top: 150px !important;
     height: 1700px !important;
-    margin-left: 0px !important;
+    margin-right: 25px !important;
     
 
   
@@ -516,7 +516,7 @@ flex-direction: column !important;
         display: flex !important;
        }
             h1{
-                width: 380px;                
+                width: 350px;                
                 text-align: center;
                 margin-right: 40px;
                 
