@@ -68,11 +68,30 @@ display: flex;
 
 @media only screen and (max-width: 768px){
 
-.logobox .children h1{
+.logobox{ 
+    
+    top: 90px;
+    .children{
 
-    font-size: 70px;
-    bottom: 12px;
+    bottom: 0px;
+
+ h1{
+
+    font-size: 45px;
+    bottom: 5px;
+}}
+
 }
-
+.children.two{
+  bottom: 60px !important;
+}
+.children.three{
+  bottom: 120px !important;
+}
+.children.four{
+  bottom: 180px !important;
+}
+.children.five{
+  bottom: 275px !important;
 }
 `

@@ -9,12 +9,12 @@ import Image from "next/image";
 import { BodyBox } from './style';
 import { Balls } from "../_ball/ball";
 
-const BodyOne = () => {
+const BodyTwo = () => {
 
     return (
         <BodyBox>
             <div className="boxOne">
-                
+
                     <h2> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, porro nam 
                         et ipsum ut assumenda, temporibus recusandae sunt laboriosam vel dicta
                          molestiae vitae quas ad odit adipisci, nostrum perferendis rerum ducimus
@@ -37,4 +37,4 @@ const BodyOne = () => {
         </BodyBox>
     );
 };
-export default BodyOne;
+export default BodyTwo;

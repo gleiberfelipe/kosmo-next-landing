@@ -21,7 +21,7 @@ export const Balls = ({ maxwidth, minwidth, children }: Props) => {
 
     return (
         <BalltBox>
-        <div style={{ width: `${maxwidth}px`, minWidth: `${minwidth}px`, height: `${maxwidth}px`, borderRadius: "50%" }}>
+        <div style={{ maxWidth: `${maxwidth}px`,  minWidth: `${minwidth}px`, maxHeight: `${maxwidth}px`, minHeight:  `${minwidth}px`, borderRadius: "50%" }}>
             {children}
         </div>
         </BalltBox>

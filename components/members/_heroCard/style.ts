@@ -35,6 +35,8 @@ align-items: center;
     z-index: 4;
     bottom: 0px;
     border-radius: 30px;
+    border-bottom: 10px solid #8E54E9;
+
 
     img{
      object-fit: cover;
@@ -66,7 +68,6 @@ p{
 }
 
 @media only screen and (max-width: 768px){
-    
     img.logo{
         width: 207px;
         height: 105px; 
@@ -77,7 +78,10 @@ p{
     border: none;
     background-color: rgb(17,17,17);
 
-   
+    .circle{
+        width: 60px;
+        height: 60px; 
+    }
     .newimg{
         width: 360px;
         height: 240px;

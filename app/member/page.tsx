@@ -7,6 +7,7 @@ import Footer from "@/components/home/_bodyTwo/bodyTwo";
 import RealFooter from "@/components/home/_footer/footer";
 import Header from "@/components/home/_header/header";
 import BodyOne from "@/components/members/_bodyOne/bodyOne";
+import BodyTwo from "@/components/members/_bodyTwo.tsx/bodyTwo";
 
 import HeroMembers from "@/components/members/_heroCard/heroMembers";
 import {LogoMembers} from "@/components/members/_logoMembers/logoMembers";
@@ -27,11 +28,11 @@ export default function Member() {
       <LogoMembers text="CONFIRA" />
       <BodyOne/>
       <LogoMembers text="DORES" />
+      <BodyTwo/>
       <LogoMembers text="SOLUÇÃO" />
+      <BodyOne/>
       <LogoMembers text="CONCLUSÃO" />
-      <Service/>
-      <Footer/>
-      <Loading/>
+      <BodyTwo/> 
       <RealFooter/>
       
  
