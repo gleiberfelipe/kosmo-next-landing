@@ -7,7 +7,9 @@ import Footer from "@/components/home/_bodyTwo/bodyTwo";
 import RealFooter from "@/components/home/_footer/footer";
 import Header from "@/components/home/_header/header";
 import BodyOne from "@/components/members/_bodyOne/bodyOne";
+import BodyTree from "@/components/members/_bodyThree/bodyThree";
 import BodyTwo from "@/components/members/_bodyTwo.tsx/bodyTwo";
+import Faq from "@/components/members/_faq/faq";
 
 import HeroMembers from "@/components/members/_heroCard/heroMembers";
 import {LogoMembers} from "@/components/members/_logoMembers/logoMembers";
@@ -32,7 +34,8 @@ export default function Member() {
       <LogoMembers text="SOLUÇÃO" />
       <BodyOne/>
       <LogoMembers text="CONCLUSÃO" />
-      <BodyTwo/> 
+      <BodyTree/>
+      <Faq/>
       <RealFooter/>
       
  

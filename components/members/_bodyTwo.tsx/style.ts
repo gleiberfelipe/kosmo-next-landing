@@ -11,7 +11,7 @@ flex-direction: column-reverse;
 align-items: center;
 margin-top: 150px;
 padding-top: 70px;
-
+overflow: hidden;
 
 .boxOne{
     padding: 50px;
@@ -85,7 +85,7 @@ margin-top: 100px;
     height: 250px;
    
     margin-bottom: 100px;
-    left: 50px;
+    left: 150px;
     bottom: 0px;
 
         h2{
@@ -104,7 +104,7 @@ margin-top: 100px;
         height: 150px;
         background-color: transparent;
        
-        right: 100px;
+        right: 0px;
         
        
         .img{

@@ -10,7 +10,7 @@ display: flex;
 flex-direction: column;
 margin-top: 150px;
 align-items: center;
-
+overflow: hidden;
 
 .boxOne{
 padding: 50px;
@@ -70,7 +70,8 @@ padding: 50px;
     .boxOne{
         width: 250px;
         height: 250px;
-        right: 50px;
+        right: 0px;
+        left: 70px;
     
 
             h2{
@@ -93,7 +94,7 @@ padding: 50px;
             .img{
                 width: 150px;
                 height: 150px;  
-                left: 50px;
+                left: 150px;
                 bottom: 0px;
         
         }

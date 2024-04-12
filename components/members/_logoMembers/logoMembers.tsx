@@ -19,7 +19,7 @@ export const LogoMembers = ({text}: Props) => {
                 <motion.div
                     initial={{ opacity: 0, y: -100 }}
                     whileInView={{ opacity: 1, y:0 }}
-                    transition={{ duration: 1, delay: 1.5 }}
+                    transition={{ duration: 1, delay: 0.7 }}
                     viewport={{ once: true }} 
                     className="children one">
                     <h1>{text}</h1>
@@ -27,7 +27,7 @@ export const LogoMembers = ({text}: Props) => {
                 <motion.div
                     initial={{ opacity: 0, y: -100 }}
                     whileInView={{ opacity: 1, y:0 }}
-                    transition={{ duration: 1, delay: 2.0 }}
+                    transition={{ duration: 1, delay: 1.2 }}
                     viewport={{ once: true }}
                      className="children two">
                     <h1>{text}</h1>
@@ -35,21 +35,21 @@ export const LogoMembers = ({text}: Props) => {
                 <motion.div
                     initial={{ opacity: 0, y: -100 }}
                     whileInView={{ opacity: 1, y:0 }}
-                    transition={{ duration: 1, delay: 2.5 }}
+                    transition={{ duration: 1, delay: 1.7 }}
                     viewport={{ once: true }}
                      className="children three">
                     <h1>{text}</h1>
                 </motion.div>
                 <motion.div initial={{ opacity: 0, y: -100 }}
                     whileInView={{ opacity: 1, y: 0}}
-                    transition={{ duration: 1, delay: 3.0 }}
+                    transition={{ duration: 1, delay: 2.2 }}
                     viewport={{ once: true }}
                      className="children four">
                     <h1>{text}</h1>
                 </motion.div>
                 <motion.div initial={{ opacity: 0, y: -100 }}
                     whileInView={{ opacity: 1, y: 0}}
-                    transition={{ duration: 1, delay: 3.0 }}
+                    transition={{ duration: 1, delay: 2.7 }}
                     viewport={{ once: true }}
                      className="children five">
                     <h1>{text}</h1>
