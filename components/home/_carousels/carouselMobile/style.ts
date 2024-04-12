@@ -46,24 +46,16 @@ svg{
     background-color: transparent;
     color: black;    
     width: 300px;
-height: 600px;
+height: 500px;
     bottom: 0px;
     
     
         z-index: 2;
-        border-radius: 20px;
-        overflow: visible !important;
-
-    :hover{
-        background-color: rgb(239,68,68);
-        color: white;
-    }
+        border-radius: 40px !important;
+        overflow: hidden !important;
 
 
-    p{
-        font-size: 15px;
-        margin: 15px 0;
-    }
+    
     img{
         display: flex;
         width: 235px !important;
@@ -76,6 +68,7 @@ height: 600px;
         border-radius: 50px !important; 
         object-fit: cover;
         margin-right: 20px;
+        transform: scale(1.0)
         
       
     }

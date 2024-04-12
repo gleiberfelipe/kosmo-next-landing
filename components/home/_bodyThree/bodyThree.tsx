@@ -3,21 +3,22 @@
 import Image from "next/image";
 
 
-/* import map from "../../../public/59586d100a3d4891935025d1060e1f44.png";
-import diamonds from "../../../public/a8351b5c61cd1a273489a21a66e116c2.png"
-import screenOne from "../../../public/97cc4c7999f14ef53373691ed526de39.png"
-import screentwo from "../../../public/88fa7029b1a51e90f269fecc4860d966.png"
-import screenthree from "../../../public/1b27e2ab63dc4c5a0abd514dd15a969c.png"
-import screenfour from "../../../public/1b27e2ab63dc4c5a0abd514dd15a969c.png" */
+
 import { FcGoogle } from "react-icons/fc";
 import { FaMeta } from "react-icons/fa6";
-import { Emerging } from "../_animations/emerging/emerging";
-import { EmergingReverse } from "../_animations/emergingReverse/emergingReverse";
-import { Reveal } from "../_animations/reveal/reveal";
-import { RevealReverse } from "../_animations/revealReverse/revealReverse";
+
+
+
+
 import { Loadbox } from "./style"
-import { CarouselCategory } from "../_home/carouselCategory/carouselCategory";
-import { CarouselMobile } from "../_home/carouselMobile/carouselMobile";
+import { Emerging } from "@/components/_animations/emerging/emerging";
+import { EmergingReverse } from "@/components/_animations/emergingReverse/emergingReverse";
+import { RevealReverse } from "@/components/_animations/revealReverse/revealReverse";
+import { CarouselCategory } from "../_carousels/carouselCategory/carouselCategory";
+import { CarouselMobile } from "../_carousels/carouselMobile/carouselMobile";
+import { Reveal } from "@/components/_animations/reveal/reveal";
+
+
 
 
 

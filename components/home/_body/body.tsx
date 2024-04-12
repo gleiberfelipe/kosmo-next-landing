@@ -7,8 +7,8 @@ import { BsFillMenuButtonWideFill } from "react-icons/bs";
 import { BsShieldShaded } from "react-icons/bs";
 import { PiRocketLaunchLight } from "react-icons/pi";
 import { MdGroups } from "react-icons/md";
-import { Emerging } from '../_animations/emerging/emerging';
-import { EmergingReverse } from '../_animations/emergingReverse/emergingReverse';
+import { Emerging } from '@/components/_animations/emerging/emerging';
+import { EmergingReverse } from "@/components/_animations/emergingReverse/emergingReverse";
 
 
 

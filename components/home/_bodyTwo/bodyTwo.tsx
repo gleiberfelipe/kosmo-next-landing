@@ -4,12 +4,13 @@
 
 
 import { FooterBox } from './style';
-import { Reveal } from '../_animations/reveal/reveal';
-import { RevealReverse } from '../_animations/revealReverse/revealReverse';
-import { Emerging } from '../_animations/emerging/emerging';
-import { EmergingReverse } from '../_animations/emergingReverse/emergingReverse';
+
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { Emerging } from '@/components/_animations/emerging/emerging';
+import { EmergingReverse } from "@/components/_animations/emergingReverse/emergingReverse";
+import { RevealReverse } from "@/components/_animations/revealReverse/revealReverse";
+import { Reveal } from "@/components/_animations/reveal/reveal";
 
 const Footer = () => {
 

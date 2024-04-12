@@ -24,50 +24,50 @@ export function CarouselMobile() {
                     </CarouselItem>
                     <CarouselItem>
                         <div className="Cardbox">
-                            <div>
+                           
                             <img src="/1b27e2ab63dc4c5a0abd514dd15a969c.png" alt="" />
                               {/*   <p>Computers</p> */}
-                            </div>
+                            
                         </div>
                     </CarouselItem>
                     <CarouselItem>
                         <div className="Cardbox">
-                            <div>
+                           
                             <img src="/1b27e2ab63dc4c5a0abd514dd15a969c.png" alt="" />
                                 {/* <p>SmartWatch</p>      */}                   
-                            </div>
+                            
                         </div>
                     </CarouselItem>
                     <CarouselItem>
                         <div className="Cardbox">
-                            <div>
+                           
                             <img src="/1b27e2ab63dc4c5a0abd514dd15a969c.png" alt="" />
                             {/*     <p>Camera</p> */}
-                            </div>
+                            
                         </div>
                     </CarouselItem>
                     <CarouselItem>
                         <div className="Cardbox">
-                            <div>
+                            
                             <img src="/1b27e2ab63dc4c5a0abd514dd15a969c.png" alt="" />
                                {/*  <p>HeadPhones</p> */}
-                            </div>
+                          
                         </div>
                     </CarouselItem>
                     <CarouselItem>
                         <div className="Cardbox">
-                            <div>
+                           
                             <img src="/1b27e2ab63dc4c5a0abd514dd15a969c.png" alt="" />
                                 {/* <p>Gaming</p> */}
-                            </div>
+                          
                         </div>
                     </CarouselItem>
                     <CarouselItem>
                         <div className="Cardbox">
-                            <div>
+                            
                             <img src="/1b27e2ab63dc4c5a0abd514dd15a969c.png" alt="" />
                                 {/* <p>Gadgets</p> */}
-                            </div>
+                           
                         </div>
                     </CarouselItem>
                 </CarouselContent>

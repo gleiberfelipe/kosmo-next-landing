@@ -4,8 +4,10 @@
 
 
 import Image from "next/image";
-import { Reveal } from "../_animations/reveal/reveal";
-import { RevealReverse } from "../_animations/revealReverse/revealReverse";
+
+
+import { RevealReverse } from "@/components/_animations/revealReverse/revealReverse";
+import { Reveal } from "@/components/_animations/reveal/reveal";
 import { motion } from "framer-motion";
 
 

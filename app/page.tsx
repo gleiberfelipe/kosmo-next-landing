@@ -1,11 +1,13 @@
 "use client"
-import Service from "@/components/_body/body";
-import Loading from "@/components/_bodyThree/bodyThree";
-import Footer from "@/components/_bodyTwo/bodyTwo";
-import RealFooter from "@/components/_footer/footer";
-import Header from "@/components/_header/header";
-import About from "@/components/_heroCard/heroCard";
-import Logo from "@/components/_logo/logo";
+
+import Service from "@/components/home/_body/body";
+import Loading from "@/components/home/_bodyThree/bodyThree";
+import Footer from "@/components/home/_bodyTwo/bodyTwo";
+import RealFooter from "@/components/home/_footer/footer";
+import Header from "@/components/home/_header/header";
+import About from "@/components/home/_heroCard/heroCard";
+import Logo from "@/components/home/_logo/logo";
+
 
 
 
