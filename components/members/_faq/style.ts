@@ -49,5 +49,19 @@ margin: 20px 0;
     }
 }
 }
+@media only screen and (max-width: 768px){
 
+    nav{
+        button{
+            width: 350px;
+            
+        }
+
+        ul{
+            width: 350px;
+        }
+    }
+
+
+}
 `
