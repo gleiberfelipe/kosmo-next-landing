@@ -13,7 +13,7 @@ const itemVariants: Variants = {
   closed: { opacity: 0, y: 20, transition: { duration: 0.2 } }
 };
 
-export default function FaqCreators() {
+export default function FaqInvestor() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (

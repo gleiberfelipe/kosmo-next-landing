@@ -20,7 +20,9 @@ display: flex;
     .children{
         background-color: rgb(17,17,17);
         height: 90px;
-        position: relative;
+        position: relative;        
+        width: 101%;
+        justify-content: center;
       
        
         h1{
@@ -74,7 +76,7 @@ display: flex;
     .children{
 
     bottom: 0px;
-
+    
  h1{
 
     font-size: 45px;
