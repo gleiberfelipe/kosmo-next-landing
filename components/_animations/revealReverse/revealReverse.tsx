@@ -6,11 +6,9 @@ import { motion, useInView, useAnimation} from "framer-motion";
 
 interface Props {
     children: JSX.Element;
-    style: any;
-    
 }
 
-export const RevealReverse = ({ children, style}: Props) => {
+export const RevealReverse = ({ children}: Props) => {
     const ref = useRef(null);
     const isInView = useInView(ref, {once: true});
     const mainControls = useAnimation();
