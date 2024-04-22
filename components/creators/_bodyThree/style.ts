@@ -28,7 +28,7 @@ padding-top: 70px;
     
    
         background-color: #8E54E9;
-        background-image: radial-gradient(circle, #4776e6, #5870e9, #6968eb, #7c5feb, #8e54e9);
+        background-image: linear-gradient(to right top, #7c4dff, #5469ff, #247dff, #008eff, #009bf8, #00a3f4, #00abef, #00b1e8, #00b7e9, #00bdea, #00c3ea, #01c9ea);
         object-fit: contain;
 
         h2{
@@ -90,7 +90,7 @@ padding-top: 70px;
     border: 2px solid white;
    
         background-color: #8E54E9;
-        background-image: radial-gradient(circle, #4776e6, #5870e9, #6968eb, #7c5feb, #8e54e9);
+        background-image: linear-gradient(to right top, #7c4dff, #5469ff, #247dff, #008eff, #009bf8, #00a3f4, #00abef, #00b1e8, #00b7e9, #00bdea, #00c3ea, #01c9ea);
         object-fit: contain;
 
         h2{
@@ -154,7 +154,7 @@ padding-top: 70px;
     
    
         background-color: #8E54E9;
-        background-image: radial-gradient(circle, #4776e6, #5870e9, #6968eb, #7c5feb, #8e54e9);
+        background-image: linear-gradient(to right top, #7c4dff, #5469ff, #247dff, #008eff, #009bf8, #00a3f4, #00abef, #00b1e8, #00b7e9, #00bdea, #00c3ea, #01c9ea);
         object-fit: contain;
 
         h2{

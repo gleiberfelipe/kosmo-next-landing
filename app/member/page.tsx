@@ -1,6 +1,7 @@
 "use client"
 
 
+import { LogoComponent } from "@/components/custom ui/_logoMembers/logoComponent";
 import Service from "@/components/home/_body/body";
 import Loading from "@/components/home/_bodyThree/bodyThree";
 import Footer from "@/components/home/_bodyTwo/bodyTwo";
@@ -12,7 +13,7 @@ import BodyTwo from "@/components/members/_bodyTwo.tsx/bodyTwo";
 import Faq from "@/components/members/_faq/faq";
 
 import HeroMembers from "@/components/members/_heroCard/heroMembers";
-import {LogoMembers} from "@/components/members/_logoMembers/logoMembers";
+
 
 
 
@@ -25,15 +26,15 @@ export default function Member() {
     
 
       <Header/>      
-      <LogoMembers text="MEMBRO" />
+      <LogoComponent text="MEMBRO" />
       <HeroMembers/>
-      <LogoMembers text="CONFIRA" />
+      <LogoComponent text="CONFIRA" />
       <BodyOne/>
-      <LogoMembers text="DORES" />
+      <LogoComponent text="DORES" />
       <BodyTwo/>
-      <LogoMembers text="SOLUÇÃO" />
+      <LogoComponent text="SOLUÇÃO" />
       <BodyOne/>
-      <LogoMembers text="CONCLUSÃO" />
+      <LogoComponent text="CONCLUSÃO" />
       <BodyTree/>
       <Faq/>
       <RealFooter/>

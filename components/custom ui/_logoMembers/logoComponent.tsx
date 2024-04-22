@@ -10,7 +10,7 @@ interface Props {
  text: string
 }
 
-export const LogoMembers = ({text}: Props) => {
+export const LogoComponent = ({text}: Props) => {
 
     return (
         <LogoBox>

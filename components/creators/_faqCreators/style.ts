@@ -51,7 +51,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
     button{
-        background-image: linear-gradient(to right top, #4776e6, #5870e9, #6968eb, #7c5feb, #8e54e9);
+        background-image: linear-gradient(to right top, #7c4dff, #5469ff, #247dff, #008eff, #009bf8, #00a3f4, #00abef, #00b1e8, #00b7e9, #00bdea, #00c3ea, #01c9ea);
     width: 600px;
     border: 2px solid #4776e6;
     display: flex;
@@ -63,7 +63,7 @@ justify-content: center;
     color: white !important;
     font-weight: 900;
     border-radius: 50px !important;
-    border: none;
+    border:  none;
     margin: 0;
     &:hover {
         filter: brightness(100%);
@@ -103,7 +103,7 @@ margin: 20px 0;
       
         justify-content: center;
         &:hover {
-            background-image: linear-gradient(to right top, #4776e6, #5870e9, #6968eb, #7c5feb, #8e54e9);
+            background-image: linear-gradient(to right top, #7c4dff, #5469ff, #247dff, #008eff, #009bf8, #00a3f4, #00abef, #00b1e8, #00b7e9, #00bdea, #00c3ea, #01c9ea);
         color: white;
 }
 

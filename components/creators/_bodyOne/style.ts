@@ -18,7 +18,7 @@ padding: 50px;
     height: 500px;
     background-color: transparent;    
     background-color: #8E54E9;
-    background-image: radial-gradient(circle, #4776e6, #5870e9, #6968eb, #7c5feb, #8e54e9);
+    background-image: linear-gradient(to right top, #7c4dff, #5469ff, #247dff, #008eff, #009bf8, #00a3f4, #00abef, #00b1e8, #00b7e9, #00bdea, #00c3ea, #01c9ea);
     border-radius: 50%;
     display: flex;
     align-items: center;

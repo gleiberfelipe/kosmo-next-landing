@@ -26,29 +26,33 @@ display: flex;
         h1{
             font-size: 100px;
             position: relative;
-            bottom: 15px;
+            bottom: 35px;
             color: white;
+            font-weight: 700;
         }
     }
     .children.one{
-        z-index:1
+        z-index:1;
+        bottom: -30px;
     }
     .children.two{
         z-index:2;
-        bottom: 50px;
+        bottom: 30px;
     }
 
     .children.three{
         
         z-index:3;
-        bottom: 100px;
+        bottom: 90px;
     }
     .children.four{
         h1{
             color: rgb(17,17,17);
         }
         z-index:3;
-        bottom: 150px;
+        bottom: 145px;
+        
+        
     }
     .children.five{
 
@@ -70,7 +74,42 @@ display: flex;
 .logobox .children h1{
 
     font-size: 70px;
+    bottom: 25px;
+    
 }
 
+.logobox{
+.children.one{
+        z-index:1;
+        bottom: -70px;
+    }
+    .children.two{
+        z-index:2;
+        bottom: 0px;
+    }
+
+    .children.three{
+        
+        z-index:3;
+        bottom: 70px;
+    }
+    .children.four{
+        h1{
+            color: rgb(17,17,17);
+        }
+        z-index:3;
+        bottom: 140px;
+        
+        
+        
+    }
+    .children.five{
+
+        
+    bottom: 230px;
+    
+}
+
+}
 }
 `
